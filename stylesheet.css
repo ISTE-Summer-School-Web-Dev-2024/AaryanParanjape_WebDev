@@ -1,0 +1,75 @@
+@font-face {
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+    font-family: Outfit-Light
+}
+
+
+@font-face {
+    src: url(fonts/young-serif/OFL.txt);
+    font-family: YoungSerif
+}
+
+#RecipieImage{
+    width:100%;
+    border-radius: 10px;
+    height:auto;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color: #f7e7dd;
+    justify-content: center;
+}
+#preparation{
+    align-items: center;
+    margin-top: 20px;
+    background-color:#fff6fd;
+    border-radius:10px;
+}
+#omelette{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+h1{
+    font-family: YoungSerif, verdana,arial;
+    margin-bottom: 24px;
+}
+h2{
+    font-family: YoungSerif;
+    color:rgb(80, 3, 3);
+    margin-bottom: 10px;
+}
+dl{
+    font-family: Outfit-Light, verdana,arial;
+    dt{font-weight: bold;
+    color:rgb(88, 3, 72);}
+}
+ol{
+    font-family: Outfit-Light, verdana,arial;
+}
+ul{
+    font-family: Outfit-Light;
+}
+p{
+    font-family: Outfit-Light, verdana,arial;
+}
+#nutrition{
+    font-family: Outfit-Light, verdana,arial;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+#horizontal-rule{
+    width:100%;
+    border-bottom: 1px solid #ddd;
+}
+
+
+    
+
